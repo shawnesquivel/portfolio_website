@@ -1,127 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>ZEUS | Decentralize the Web</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Shawn Esquivel | Chemical Engineer / YouTuber / Software</title>
-</head>
-
-<body>
-  <header id="header-home">
-    <div class="container">
-      <nav id="main-nav" class="py-2">
-        <img src="./img/logo.png" alt="" id="logo">
+  <body>
+    <!-- Nav Bar -->
+    <nav id="main-nav">
+      <div class="container">
+        <img src="img/logo-transparent-white.png" alt="Logo" class="logo" />
         <ul>
           <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Features</a></li>
+          <li><a href="index.html">Whitepaper</a></li>
         </ul>
-      </nav>
-      <div class="header-content py-4">
-        <h1>hi! <span class="txt-type" data-wait="1000" data-words='["im shawn."]'></span></h1>
-
-        <p class="py-1">nice to meet you!</p>
-        <a href="work.html" class="btn btn-light">view my work</a>
+        <div class="social">
+          <a href="http://facebook.com"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="http://twitter.com"
+            ><i class="fab fa-twitter icon fa-2x"></i
+          ></a>
+          <a href="http://instagram.com"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="http://youtube.com"
+            ><i class="fab fa-youtube icon fa-2x"></i
+          ></a>
+        </div>
+        <button class="btn btn-main">Dashboard</button>
       </div>
-    </div>
-  </header>
+    </nav>
 
-
-
-  <!-- Section A: Skills -->
-  <section id="home-a" class="py-2">
-    <div class="container text-align">
-      <h2 class="section-title">
-        I Specialize In
-      </h2>
-      <div class="bottom-line"></div>
-      <p>Chemical Engineering, Software Development, Content Creation</p>
-      <div class="skills py-3">
-        <div>
-          <i class="fas fa-file-alt fa-2x"></i>
-          <h4>Engineering</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta provident tempora voluptates cum quos ad
-            quisquam iure ipsam commodi impedit!</p>
-        </div>
-        <div>
-          <i class="fas fa-desktop fa-2x"></i>
-          <h4>Software</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta provident tempora voluptates cum quos ad
-            quisquam iure ipsam commodi impedit!</p>
-        </div>
-        <div>
-          <i class="fab fa-youtube fa-2x"></i>
-          <h4>YouTube</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta provident tempora voluptates cum quos ad
-            quisquam iure ipsam commodi impedit!</p>
-        </div>
-        <div>
-          <i class="fas fa-handshake fa-2x"></i>
-          <h4>Negotitation</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta provident tempora voluptates cum quos ad
-            quisquam iure ipsam commodi impedit!</p>
+    <!-- Main Showcase-->
+    <header id="showcase">
+      <div class="container">
+        <div class="showcase-container">
+          <div>
+            <img src="img/miner.png" alt="" />
+          </div>
+          <div class="showcase-content">
+            <h1 class="uppercase">ZEUS</h1>
+            <p class="hero-text">
+              Boasting over 39 million accounts and 2 billion transactions, ZEUS
+              is the world's fastest growing public chain.
+            </p class ="hero-text">
+            <a href="whitepaper.html" class="btn btn-main">Read More</a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Section B: Stats -->
-  <section id="home-b" class="py-2">
-    <div class="stats">
-      <div>
-        <ul>
-          <li><i class="fas fa-business-time fa-2x"></i></li>
-          <li>
-            <h4>Chem Eng</h4>
-          </li>
-          <li>
-            <h3>3 Years</h3>
-          </li>
-        </ul>
+    </header>
+
+    <!-- Home B: Features -->
+    <section id="home-a" class="py-2">
+      <div class="container text-align">
+        <h2 class="section-title">Features</h2>
+        <div class="bottom-line"></div>
+        <div class="features py-3">
+          <div>
+            <i class="fas fa-expand fa-4x"></i>
+            <h4>Scale</h4>
+            <p>
+              Stake, or lock up your ZEUS to help process transactions and further secure the platform–providing security guarantees well-above the 51% standard. You probably have the hardware required to join the platform.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-bolt fa-4x"></i>
+            <h4>Speed</h4>
+            <p>
+              Launch Ethereum dApps that confirm transactions instantly and process thousands of transactions per second, far beyond any decentralized blockchain platform today.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-lock fa-4x"></i>
+            <h4>Security</h4>
+            <p>
+              Deploy blockchains that fit your own application needs. Build your own virtual machine and dictate exactly how the blockchain should operate.IT'S ALL
+            </p>
+          </div>
+        </div>
       </div>
-      <div>
-        <ul>
-          <li> <i class="fab fa-youtube fa-2x"></i></li>
-          <li>
-            <h4>Videos Made</h4>
-          </li>
-          <li>
-            <h3>39</h3>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><i class="fas fa-video fa-2x"></i></li>
-          <li>
-            <h4>Channel Views</h4>
-          </li>
-          <li>
-            <h3>280K</h3>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li> <i class="fas fa-user-friends fa-2x"></i>
-          </li>
-          <li>
-            <h4>YouTube Subs</h4>
-          </li>
-          <li>
-            <h3>18,053</h3>
-          </li>
-        </ul>
-      </div>
-  </section>
-  <!-- Section C: Process -->
-  <section id="home-c" class="py-2 text-align">
+    </section>
+
+    <!-- Section C: Process -->
+    <!-- <section id="home-c" class="py-2 text-align">
     <div class="container">
       <h2 class="section-title">
         My Creative Process
@@ -165,10 +141,29 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
-  <!-- Footer -->
-  <footer id="main-footer">
+    <!-- Showcase -->
+    <section id="home-d" class="py-2 text-align">
+      <div class="container">
+        <div class="showcase-container">
+          <div class="showcase-content">
+            <h1 class="uppercase">
+              it's all <br />
+              in the <br />
+              <span class="focus">numbers</span>
+            </h1>
+            <a href="whitepaper.html" class="btn btn-main">Read More</a>
+          </div>
+          <div>
+            <img src="img/miner2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer id="main-footer">
     <div class="footer-content container">
       <div>
         <p>Copyright &copy; 2019. All Rights Reserved</p>
@@ -182,12 +177,66 @@
         </ul>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
+    <footer id="main-footer">
+      <div class="container footer-container p-2">
+        <div class="footer-logo">
+          <img src="img/logo-transparent-white.png" alt="" class="logo" />
+          <h2>ZEUS</h2>
+        </div>
+        <div>
+          <h3>Newsletter</h3>
+          <p>Get the latest updates on ZEUS!</p>
+          <form name="contact" class="py-0" method="post" data-netlify="true">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email..."
+            />
+          </form>
+          <input
+            type="submit"
+            value="Subscribe"
+            class="btn btn-main btn-wide"
+          />
+        </div>
+        <div>
+          <h3>Site Links</h3>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
 
-  <!-- insert typewriter javascript file -->
-  <script src="js/typewriter.js"></script>
+        <div class="copyright">
+          <p>Copyright &copy 2019, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
 
-</body>
+    <!-- insert typewriter javascript file -->
+    <script src="js/typewriter.js"></script>
 
+    <script src="main.js"></script>
+
+    <script>
+      // Smooth Scrolling
+      $(".btn").on("click", function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          const hash = this.hash;
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800
+          );
+        }
+      });
+    </script>
+  </body>
 </html>

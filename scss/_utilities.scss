@@ -28,11 +28,14 @@ $website-width: 1280px;
 
 %btn-shared{
   display: inline-block;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 0.8rem;
+  text-transform: uppercase;
   transition: all 0.5s;
   cursor: pointer;
   border: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .btn{
@@ -44,8 +47,7 @@ $website-width: 1280px;
   
   &-main{
     @extend %btn-shared;
-
-    color: #333;
+    color: #fff;
     background: $main-color;
   }
 
@@ -55,9 +57,13 @@ $website-width: 1280px;
     background: $dark-color;
   }
 
+  &-wide{
+    width: 100%;
+  }
+
   &:hover{
     @extend %btn-shared;
-    background: $main-color;
+    background: $accent-main;
   }
 }
 
@@ -73,11 +79,13 @@ input[class^='btn-']:hover{
 }
 
 .section-title{
-  font-size: 2rem;
+  font-size: 3rem;
   display: block;
   padding-bottom: 0.5rem;
-  font-weight: 100;
+  font-weight: bold;
+  color: $main-color;
   text-transform: uppercase;
+
 }
 
 .bottom-line{
@@ -87,6 +95,8 @@ input[class^='btn-']:hover{
   display: block;
   margin: 0 auto 1rem auto;
 }
+
+
 
 // Background 
 .bg{
@@ -111,4 +121,9 @@ input[class^='btn-']:hover{
 // Text Changes
 .uppercase{
   text-transform: uppercase;
+}
+
+.focus{
+  color: $accent-main;
+  font-weight: bolder;
 }
