@@ -17,7 +17,7 @@
 - I worked with a client to make them this website. I followed the principles outlined in this resource for creating a new webstie https://webflow.com/blog/the-web-design-process-in-7-simple-steps
 
 ## Next Features To Be Added
-- This website was mainly used for practice, see my Portfolio project for more JavaScript features
+- This website was mainly used for practice, see my Portfolio project for more JavaScript features https://shawnesquivelportfolio.netlify.app/
 
 ### Resources
 - I built this project on my own, after learning the HTML/CSS basics in Brad Traversy's course. I highly recommend it! https://tinyurl.com/html-css-course
